@@ -1,0 +1,18 @@
+<templateSet group="Groovy">
+  <template name="buff" value="BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));" description="BufferedReader" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="arrs" value="ArrayList&lt;String&gt; arrayList = new ArrayList&lt;&gt;();" description="ArrayList&lt;String&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="arri" value="ArrayList&lt;Integer&gt; arrayList = new ArrayList&lt;&gt;();" description="ArrayList&lt;Integer&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
