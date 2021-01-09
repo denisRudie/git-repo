@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="security.schema" type="SQL" />
     </extensionMap>
   </component>
